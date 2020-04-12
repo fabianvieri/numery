@@ -7,9 +7,10 @@ function App() {
   return (
     <div className="container">
       <Navbar links={numers.map(numer => numer.title)} />
+      <div className="banner vh-50"></div>
       {numers.map(numer => {
         return (
-          <Numer numer={numer} />
+          <Numer numer={numer} key={numer.title} />
         )
       })
       }

@@ -1,27 +1,32 @@
 const numers = [
     {
         title: "nfacts",
+        desc: "enter a number and find an interesting facts about it",
+        placeholder: "enter basic number 1,22,101,1122, .. etc",
         style: {
-            background: "linear - gradient(to right, #1CB5E0, #000046)"
+            background: "#27ae60"
         }
     },
     {
         title: "logarithm",
+        desc: "auto generate simple logarithm",
         style: {
-            background: "linear - gradient(to right, #283E51, #4B79A1)"
+            background: "#2980b9"
         }
     },
     {
         title: "pfactor",
+        desc: "find prime factor of a number or it just a prime number",
         style: {
-            background: "linear - gradient(to right, #24243e, #302b63, #0f0c29)"
+            background: "#f39c12"
 
         }
     },
     {
         title: "ccalculus",
+        desc: "find solution for simple calculus expression",
         style: {
-            background: "linear - gradient(to right, #3A6073, #16222A)"
+            background: "#16a085"
         }
     }
 ];
