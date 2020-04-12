@@ -1,8 +1,14 @@
 import React from 'react'
 
-const Input = ({ onkeyup }) => {
+
+const Input = ({ placeholder, onchange }) => {
     return (
-        <input type="text" className="br2 bn pa1" onkeyup={onkeyup} placeholder="1,22,101,1122,.." />
+        <input
+            type="text"
+            className="br2 bn pa1"
+            placeholder={placeholder}
+            onChange={onchange}
+        />
     );
 }
 
