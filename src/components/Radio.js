@@ -5,7 +5,7 @@ const Radio = () => {
         <div>
             <input type="radio" id="derive" name="calc" />
             <label htmlFor="derive" className="ml2 white">Derive</label>
-            <input type="radio" id="integrate" name="calc" className="ml2" />
+            <input type="radio" id="integrate" name="calc" className="ml2 bg-black-40" />
             <label htmlFor="integrate" className="ml2 white">Integrate</label>
         </div>
     );

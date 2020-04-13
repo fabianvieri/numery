@@ -1,6 +1,7 @@
 const numers = [
     {
-        title: "nfacts",
+        id: "trivia",
+        title: "number facts",
         desc: "enter a number and find an interesting facts about it",
         placeholder: "1,22,101,...",
         url: "http://numbersapi.com/",
@@ -9,17 +10,9 @@ const numers = [
         }
     },
     {
-        title: "logarithm",
-        desc: "auto generate simple logarithm",
-        placeholder: "2|3 - 2log3",
-        url: "https://newton.now.sh/log/",
-        style: {
-            background: "#2980b9"
-        }
-    },
-    {
-        title: "pfactor",
-        desc: "find prime factor of a number or it just a prime number",
+        id: "basic",
+        title: "prime factor",
+        desc: "find prime factor of a number or determine a prime number",
         placeholder: "1,22,101,...",
         url: "https://newton.now.sh/factor/",
         style: {
@@ -28,7 +21,18 @@ const numers = [
         }
     },
     {
-        title: "ccalculus",
+        id: "medium",
+        title: "logarithm",
+        desc: "auto generate simple logarithm",
+        placeholder: "2|3 - 2log3",
+        url: "https://newton.now.sh/log",
+        style: {
+            background: "#2980b9"
+        }
+    },
+    {
+        id: "advanced",
+        title: "calculus",
         desc: "find solution for simple calculus expression",
         placeholder: "1, x+2, x^2+1, ..",
         url: "https://newton.now.sh/",
