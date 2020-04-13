@@ -60,7 +60,12 @@ export default class Numer extends Component {
     processResult() {
         const error = `can't process your number or expression`;
         if (!this.state.isError) {
-            if (this.id === "trivia") return this.state.trivia;
+            if (this.id === "trivia") {
+                if (this.state.trivia.includes("Cannot")) {
+                    return error;
+                }
+                return this.state.trivia;
+            }
             else {
                 if (this.state.output.result === "NaN") {
                     return error;
