@@ -69,6 +69,11 @@ export default class Numer extends Component {
             else {
                 if (this.state.output.result === "NaN") {
                     return error;
+                } else {
+                    const result = this.state.output.result;
+                    if (this.id === "basic" && result !== "" && result.length > 1) {
+                        return result.split(" ").map(s => `${s[0]}`).join(", ");
+                    }
                 }
                 return this.state.output.result;
             }
