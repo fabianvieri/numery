@@ -93,7 +93,7 @@ export default class Numer extends Component {
                 {this.id === "advanced" ? <Radio onchange={this.radioChange} /> : ""}
                 <div className="flex justify-center pa1">
                     <div className="w-70 ba br2 b--dashed bw1 b--white pa3">
-                        <p className="white f3"> {this.processResult()} </p>
+                        <p className="white f4"> {this.processResult()} </p>
                     </div>
                 </div>
             </div>
