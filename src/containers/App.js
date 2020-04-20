@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="container">
       <Navbar links={numers.map(numer => numer.id)} />
-      <div className="banner vh-100 flex flex-column justify-center pa2 tc">
+      <div className="banner vh-100 flex flex-column justify-center items-center tc">
         <h1 className="white">NUMERY</h1>
         <h2 className="white-60">
           this is simple react project for fun,
