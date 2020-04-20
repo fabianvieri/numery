@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b6330b0091018ec2f7136ade534954c4",
+    "revision": "204431d6f3d20f2565af068ce1675f72",
     "url": "/numery/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/numery/static/css/2.07548e1c.chunk.css"
   },
   {
-    "revision": "21aaed16c42ad675cb21",
+    "revision": "05b2ce524652f3daaa9f",
     "url": "/numery/static/css/main.c28aaa4b.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/numery/static/js/2.e08db1b8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "21aaed16c42ad675cb21",
-    "url": "/numery/static/js/main.8137705a.chunk.js"
+    "revision": "05b2ce524652f3daaa9f",
+    "url": "/numery/static/js/main.a69f3f21.chunk.js"
   },
   {
     "revision": "d3dcb1d905fa4ae49d6e",
